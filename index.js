@@ -1,17 +1,21 @@
-let nome = ["Aragorn", "Legolas", "Gimli", "Gandalf"];
-let xp = [750, 3500, 9500, 12000];
+let herois = [
+  { nome: "Aragorn", xp: 750 },
+  { nome: "Legolas", xp: 3500 },
+  { nome: "Gimli", xp: 9500 },
+  { nome: "Gandalf", xp: 12000 },
+];
 
-for (let i = 0; i < nome.length; i++) {
-    let nivel = "";
+for (let heroi of herois) {
+  let nivel = "";
 
-    if (xp[i] < 1000) nivel = "Ferro";
-    else if (xp[i] <= 2000) nivel = "Bronze";
-    else if (xp[i] <= 5000) nivel = "Prata";
-    else if (xp[i] <= 7000) nivel = "Ouro";
-    else if (xp[i] <= 8000) nivel = "Platina";
-    else if (xp[i] <= 9000) nivel = "Ascendente";
-    else if (xp[i] <= 10000) nivel = "Imortal";
-    else nivel = "Radiante";
+  if (heroi.xp < 1000) nivel = "Ferro";
+  else if (heroi.xp <= 2000) nivel = "Bronze";
+  else if (heroi.xp <= 5000) nivel = "Prata";
+  else if (heroi.xp <= 7000) nivel = "Ouro";
+  else if (heroi.xp <= 8000) nivel = "Platina";
+  else if (heroi.xp <= 9000) nivel = "Ascendente";
+  else if (heroi.xp <= 10000) nivel = "Imortal";
+  else nivel = "Radiante";
 
-    console.log("O Herói de nome " + nome[i] + " está no nível de " + nivel);
+  console.log(`O Herói de nome ${heroi.nome} está no nível de ${nivel}`);
 }
