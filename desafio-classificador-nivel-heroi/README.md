@@ -1,38 +1,28 @@
-# DESCRIÇÃO DO DESAFIO - DIO
+# 🦸‍♂️ Desafio 1 - Classificador de Nível de Herói
 
-## Entendendo o Desafio
- 
-Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
- 
-Neste repositório, insira todos os links e arquivos necessários para seu projeto, seja um arquivo de banco de dados ou um link para o template no Figma.
- 
-Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
- 
-## Instruções para entrega
-
-## Desafio Classificador de nível de Herói
-
-**O Que deve ser utilizado**
-
+## 📌 O que deve ser utilizado
 - Variáveis
 - Operadores
 - Laços de repetição
-- Estruturas de decisões
+- Estruturas de decisão
 
-## Objetivo
+## 🎯 Objetivo
+Criar uma variável para armazenar o **nome** e a **quantidade de experiência (XP)** de um herói.  
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+Em seguida, utilizar uma estrutura de decisão para classificar o nível do herói de acordo com a tabela abaixo:
 
-- Se XP for menor do que 1.000 = Ferro
-- Se XP for entre 1.001 e 2.000 = Bronze
-- Se XP for entre 2.001 e 5.000 = Prata
-- Se XP for entre 5.001 e 7.000 = Ouro
-- Se XP for entre 7.001 e 8.000 = Platina
-- Se XP for entre 8.001 e 9.000 = Ascendente
-- Se XP for entre 9.001 e 10.000= Imortal
-- Se XP for maior ou igual a 10.001 = Radiante
+| Faixa de XP | Nível |
+|-------------|-------|
+| Menor que 1.000 | Ferro |
+| 1.001 a 2.000 | Bronze |
+| 2.001 a 5.000 | Prata |
+| 5.001 a 7.000 | Ouro |
+| 7.001 a 8.000 | Platina |
+| 8.001 a 9.000 | Ascendente |
+| 9.001 a 10.000 | Imortal |
+| Maior ou igual a 10.001 | Radiante |
 
-## Saída
+## 🖥️ Saída esperada
+Ao final, deve ser exibida a seguinte mensagem:
 
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
+`O Herói de nome {nome} está no nível de {nivel}`
