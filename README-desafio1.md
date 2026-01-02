@@ -10,7 +10,7 @@ Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no r
  
 ## Instruções para entrega
 
-### Desafio Classificador de nível de Herói
+## Desafio Classificador de nível de Herói
 
 **O Que deve ser utilizado**
 
@@ -19,7 +19,7 @@ Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no r
 - Laços de repetição
 - Estruturas de decisões
 
-### Objetivo
+## Objetivo
 
 Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
 
@@ -32,7 +32,7 @@ Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de 
 - Se XP for entre 9.001 e 10.000= Imortal
 - Se XP for maior ou igual a 10.001 = Radiante
 
-### Saída
+## Saída
 
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
